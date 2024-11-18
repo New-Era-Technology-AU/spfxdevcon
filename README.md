@@ -1,6 +1,8 @@
 # SharePoint Framework Dev Container Template for new Projects
 
-A starter customizable template to quickly develop SPFx solutions. 
+A starter customizable template to quickly develop SPFx solutions. Note for latest versions of Docker Desktop you need to specific the server hostname to "127.0.0.1" this can be done in the file config/serve.json.
+under "https" : true add "hostname": "127.0.0.1",
+
 
 ## Steps to execute
 * Clone the repo into a dev container
